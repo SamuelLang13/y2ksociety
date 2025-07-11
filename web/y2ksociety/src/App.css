@@ -1,46 +1,176 @@
-.app-container {
-  text-align: center;
-  padding: 20px;
+body {
   background-color: black;
-  color: limegreen;
-  font-family: 'Orbitron', monospace;
+  font-family: 'Courier New', monospace;
+  color: lime;
 }
 
-.banner {
-  background-image: url('/assets/ozzy-bg.gif');
-  background-size: cover;
+.landing-wrapper {
   padding: 30px;
-  border-bottom: 2px solid red;
+  text-align: center;
 }
 
-.main-nav ul {
-  list-style: none;
-  padding: 0;
+.hero-banner {
+  color: #00ff00;
+  text-shadow: 0 0 2px red;
+  border: 3px double red;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: black;
+}
+
+.skull-row {
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: #111;
-  border: 1px solid red;
+  gap: 20px;
 }
 
-.main-nav li {
-  margin: 0 15px;
+.skull-row img {
+  width: 50px;
+  height: auto;
 }
 
-.main-nav a {
-  color: red;
+.subtitle {
+  color: magenta;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.zone-select {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px auto;
+  width: fit-content;
+}
+
+.zone-button {
+  background-color: black;
+  color: lime;
+  border: 2px solid lime;
+  padding: 12px 30px;
   text-decoration: none;
   font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px red;
+  transition: 0.2s;
 }
 
-.main-nav a:hover {
+.zone-button:hover {
+  background-color: red;
   color: yellow;
-  text-shadow: 0 0 5px red;
+  text-shadow: 0 0 3px black;
 }
 
-.footer {
-  margin-top: 40px;
-  border-top: 1px solid red;
-  padding: 10px;
-  font-size: 12px;
-  color: gray;
+.winamp-box {
+  background-color: #111;
+  border: 2px groove lime;
+  padding: 15px;
+  margin: 30px auto;
+  width: fit-content;
+  color: lime;
 }
+
+.winamp-box img {
+  width: 300px;
+}
+
+.netscape-warning {
+  color: lime;
+  font-size: 0.9em;
+  margin-top: 30px;
+  border-top: 1px dashed lime;
+  padding-top: 15px;
+}
+
+.main-footer {
+  color: gray;
+  font-size: 0.8em;
+  margin-top: 40px;
+}
+
+.search-box {
+  margin-top: 40px;
+}
+
+.search-box input {
+  background-color: black;
+  color: lime;
+  border: 2px solid red;
+  padding: 8px;
+  width: 300px;
+  font-family: 'Courier New', monospace;
+}
+
+.search-box button {
+  background-color: red;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-zone {
+  margin-top: 25px;
+  font-style: italic;
+  color: magenta;
+}
+
+.create-zone button {
+  margin-top: 5px;
+  background-color: #111;
+  border: 2px dashed lime;
+  color: lime;
+  padding: 10px 20px;
+  font-family: 'Courier New', monospace;
+  cursor: pointer;
+}
+
+.hero-banner {
+  color: #00ff00;
+  text-shadow: 0 0 2px red;
+  border: 3px double red;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: black;
+}
+
+.skull-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skull-img {
+  width: 50px;
+  height: auto;
+}
+
+.timeline-widget {
+  background: #111;
+  border-left: 2px dashed lime;
+  padding: 15px;
+  color: #ff00ff;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+.timeline-widget h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.timeline-widget ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-widget li {
+  margin-bottom: 8px;
+}
+
