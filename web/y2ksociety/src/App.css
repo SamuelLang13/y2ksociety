@@ -1,0 +1,46 @@
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: limegreen;
+  font-family: 'Orbitron', monospace;
+}
+
+.banner {
+  background-image: url('/assets/ozzy-bg.gif');
+  background-size: cover;
+  padding: 30px;
+  border-bottom: 2px solid red;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  border: 1px solid red;
+}
+
+.main-nav li {
+  margin: 0 15px;
+}
+
+.main-nav a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: yellow;
+  text-shadow: 0 0 5px red;
+}
+
+.footer {
+  margin-top: 40px;
+  border-top: 1px solid red;
+  padding: 10px;
+  font-size: 12px;
+  color: gray;
+}

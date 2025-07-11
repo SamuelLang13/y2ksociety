@@ -1,0 +1,25 @@
+.retro-navbar {
+  background-color: black;
+  border: 2px solid red;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', monospace;
+}
+
+.retro-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.retro-navbar a {
+  color: lime;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.retro-navbar a:hover {
+  color: yellow;
+  text-shadow: 0 0 4px red;
+}
